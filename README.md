@@ -2,6 +2,7 @@
 ## General Information
 * Course: CPNT-201 Web Page Construction Fund.
 * Author: [Vitaly Gins](https://github.com/gvitaly87) - Repository owner and maintainer.
+* [Github repo](https://github.com/gvitaly87/in-class-images)
 
 ### Context
 The results from the in class activity
