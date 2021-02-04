@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing with picture resize</title>
+</head>
+<body>
+  <h1>Let the pictures adjust</h1>
+  <div class ="wrap">
+    <picture>
+      <source media="(max-width: 700px)" srcset="./sm/lamborghini-sm.jpg">
+      <source media="(max-width: 1300px)" srcset="./md/lamborghini-md.jpg">
+      <img src="./lg/lamborghini-lg.jpg" alt="A beautiful Lamborghini">
+    </picture>
+    <picture>
+      <source media="(max-width: 700px)" srcset="./sm/trail-between-trees-sm.jpg">
+      <source media="(max-width: 1300px)" srcset="./md/trail-between-trees-md.jpg">
+      <img src="./lg/trail-between-trees-lg.jpg" alt="A trail between trees">
+    </picture>
+    <picture>
+      <source media="(max-width: 700px)" srcset="./sm/trail-fallen-leafs-sm.jpg">
+      <source media="(max-width: 1300px)" srcset="./md/trail-fallen-leafs-md.jpg">
+      <img src="./lg/trail-fallen-leafs-lg.jpg" alt="A trail in the fall">
+    </picture>
+  </div>
+</body>
+</html>
